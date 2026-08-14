@@ -1,7 +1,16 @@
 
 ## 44. Mermaid 다이어그램 !!
+세로
 ```mermaid
-flowchart TD
+flowchart TD 
+    Client --> Controller
+    Controller --> Service
+    Service --> Repository
+    Repository --> Database
+```
+가로
+```mermaid
+flowchart LR 
     Client --> Controller
     Controller --> Service
     Service --> Repository
